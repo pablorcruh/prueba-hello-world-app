@@ -1,0 +1,22 @@
+{
+  "name": "devops_test",
+  "version": "1.0.0",
+  "description": "RESTFUL SERVICE TO DEPLOY OVER DOCKER CONTAINERS AND RUN ON THE CLOUD",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha test/*.test.js"
+  },
+  "keywords": [
+    "devops",
+    "docker",
+    "kubernetes"
+  ],
+  "author": "Pablo Cruz",
+  "license": "ISC",
+  "dependencies": {
+    "expect": "^21.2.1",
+    "express": "^4.16.2",
+    "mocha": "^4.0.1",
+    "supertest": "^3.0.0"
+  }
+}
