@@ -1,6 +1,5 @@
 const express = require('express');
 var app=express();
-const port=process.env.PORT ||3000;
 app.get("/hello/:name",(req,res)=>{
         var name=req.params.name;
         res.send({
@@ -8,7 +7,7 @@ app.get("/hello/:name",(req,res)=>{
         });
 });
 
-app.listen(port,()=>{
+app.listen(3000,()=>{
     console.log('Service running');
 });
 
