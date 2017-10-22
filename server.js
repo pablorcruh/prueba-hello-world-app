@@ -4,7 +4,7 @@ const port=process.env.PORT ||3000;
 app.get("/hello/:name",(req,res)=>{
         var name=req.params.name;
         res.send({
-            'mesagge to show':`hello ${name}`
+            'mesagge':`hello ${name}`
         });
 });
 
