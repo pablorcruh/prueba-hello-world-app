@@ -4,12 +4,12 @@
   "description": "RESTFUL SERVICE TO DEPLOY OVER DOCKER CONTAINERS AND RUN ON THE CLOUD",
   "main": "server.js",
   "scripts": {
+    "start": "node server.js",
     "test": "mocha test/*.test.js"
   },
   "keywords": [
     "devops",
-    "docker",
-    "kubernetes"
+    "docker"
   ],
   "author": "Pablo Cruz",
   "license": "ISC",

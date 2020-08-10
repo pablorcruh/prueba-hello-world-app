@@ -1,6 +1,4 @@
-FROM node:boron
-
-MAINTAINER pablorcruh "pablorcruh@gmail.com"
+FROM node:14.7.0-alpine3.12
 
 # Create app directory
 WORKDIR /usr/src/app
