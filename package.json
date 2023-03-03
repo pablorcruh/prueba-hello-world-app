@@ -16,7 +16,7 @@
   "dependencies": {
     "expect": "^21.2.1",
     "express": "^4.16.2",
-    "mocha": "^4.0.1",
+    "mocha": "^10.2.0",
     "supertest": "^3.0.0"
   }
 }
